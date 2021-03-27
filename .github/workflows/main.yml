@@ -4,7 +4,7 @@
 # Copyright (c) 2020, Chuck <fanck0605@qq.com>
 #
 
-name: openwrt-21.02
+name: openwrt-21.02-hg255d
 
 on:
   repository_dispatch:
@@ -12,7 +12,7 @@ on:
     inputs:
       ssh:
         description: 'SSH connection to Actions'
-        required: false
+        required: true
         default: 'false'
 
 jobs:
