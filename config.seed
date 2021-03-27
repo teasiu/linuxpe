@@ -13,7 +13,8 @@ CONFIG_PACKAGE_curl=y
 CONFIG_PACKAGE_fdisk=y
 CONFIG_PACKAGE_gzip=y
 CONFIG_PACKAGE_usbutils=y
-
+CONFIG_PACKAGE_uhttpd-mod-lua=y
+CONFIG_PACKAGE_luci-sgi-uhttpd=y
 CONFIG_PACKAGE_luci-app-arpbind=y
 CONFIG_PACKAGE_luci-app-ssr-plus=y
 CONFIG_PACKAGE_luci-app-ttyd=y
